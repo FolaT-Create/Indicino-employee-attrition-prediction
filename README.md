@@ -93,7 +93,7 @@ Performed analysis on:
 
 #### 3. Feature Engineering
 
-- Encoding using `pd.get_dummies()`
+- One-hot encoding using `pd.get_dummies()`
 - Feature selection
 - Correlation analysis
 - Train/Test split
@@ -159,6 +159,7 @@ Based on the analysis, Indicino's HR department should consider the following:
 
 ### Repository Structure
 
+```text
 Indicino-Employee-Attrition-Prediction/
 │
 ├── data/
@@ -176,6 +177,7 @@ Indicino-Employee-Attrition-Prediction/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
 
 
 ### Future Improvements
