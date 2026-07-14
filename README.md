@@ -163,20 +163,22 @@ Based on the analysis, Indicino's HR department should consider the following:
 Indicino-Employee-Attrition-Prediction/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── processed/
+│   └── raw/
+│
+├── models/
+│   ├── employee_attrition_prediction_model.pkl
+│   └── rf_baseline.pkl
 │
 ├── notebooks/
 │   ├── Indicino_project_notebook.ipynb
 │   └── Model_eveluation_&_improvement.ipynb
 │
-├── models/
-│   └── employee_attrition_prediction_model
-│
 ├── reports
-├── requirements.txt
+├── src
+├── .gitignore
 ├── README.md
-└── LICENSE
+└── requirements.txt
 ```
 
 
